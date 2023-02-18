@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - Display all base 10 numbers with putchar
  * Return: 0(Success)
