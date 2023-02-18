@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - displays alphabets with putchar in lowercase
@@ -9,11 +8,11 @@
 int main(void)
 {
 
-	for (int aph = 'A'; aph <= 'Z'; aph++)
+	for (char aph = 'a'; aph <= 'z'; aph++)
 	{
-		char small = tolower(aph);
-
-		putchar(small);
+		putchar(aph);
+		putchar('\n');
 	}
+
 	return (0);
 }
