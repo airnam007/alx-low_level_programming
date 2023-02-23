@@ -2,16 +2,16 @@
 
 /**
  * print_numbers - Displays numbers
- * Return: (Success)
+ * Return: 0(Success)
  */
 
 void print_numbers(void)
 {
-	int i;
+	int c;
 
-	for (i = 48; i < 58; i++)
+	for (c = 48; c < 58; c++)
 	{
-		_putchar(i);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
