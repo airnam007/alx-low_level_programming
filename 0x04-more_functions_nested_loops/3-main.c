@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	print_numbers();
+	print_numbers(c);
 	return (0);
 }
