@@ -4,7 +4,7 @@
 /**
  * _strlen - to count array
  * @s: shows array of elements
- * Return: 1
+ * Return: i
  **/
 
 int _strlen(char *s)
@@ -12,7 +12,7 @@ int _strlen(char *s)
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != "\0")
+	while (s[i] != '\0')
 	{
 		i++;
 	}
