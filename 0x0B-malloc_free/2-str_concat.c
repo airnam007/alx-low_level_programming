@@ -7,12 +7,12 @@
  * Return: 1
  **/
 
-int _strlen(chr *s)
+int _strlen(char *s)
 {
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != "/0")
+	while (s[i] != "\0")
 	{
 		i++;
 	}
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 
 	ciz = (_strlen(s1) + _strlen(s2) + 1);
 
-	conct = (char *) malloc(size * sizeof(char));
+	conct = (char *) malloc(ciz * sizeof(char));
 
 	if (conct == 0)
 	{
