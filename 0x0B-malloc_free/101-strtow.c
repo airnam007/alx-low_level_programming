@@ -49,7 +49,7 @@ int count_wd(char *str)
  * @str: string to be splitted
  * Return: varying results
  */
-chr **strtow(char *str)
+char **strtow(char *str)
 {
 	char **strings;
 	int index = 0, words, w, letters, l;
