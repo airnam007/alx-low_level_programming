@@ -20,7 +20,7 @@ struct dog
  * dog_t typedef for struct dog
  */
 
-typedef strcut dog dog_t;
+typedef strcut dog my_dog;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
